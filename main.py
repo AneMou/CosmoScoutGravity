@@ -49,6 +49,7 @@ while running:
         elif event.type == pygame.KEYUP:
             Inputs.keyUp(event.key)
 
+    # quitte la boucle principale
     if running == False:
         break
 
